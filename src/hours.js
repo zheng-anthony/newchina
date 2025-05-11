@@ -12,23 +12,31 @@ export default function Hours() {
   <tbody>
     <tr>
       <td>Monday</td>
-      <td>11:00 am - 09:15 pm</td>
-    </tr>
-    <tr>
-      <td>Tuesday</td>
       <td>Closed</td>
     </tr>
     <tr>
-      <td>Wednesday - Thursday</td>
-      <td>11:00 am - 09:15 pm</td>
+      <td>Tuesday</td>
+      <td>11:00 am - 10:00pm</td>
     </tr>
     <tr>
-      <td>Friday - Saturday</td>
-      <td>11:00 am - 10:15 pm</td>
+      <td>Wednesday</td>
+      <td>11:00 am - 10:00 pm</td>
     </tr>
     <tr>
+      <td>Thursday</td>
+      <td>11:00 am - 10:00 pm</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>11:00 am - 11:00 pm</td>
+    </tr>
+        <tr>
+      <td>Saturday</td>
+      <td>11:00 am - 11:00 pm</td>
+    </tr>
+        <tr>
       <td>Sunday</td>
-      <td>12:00 pm - 09:15 pm</td>
+      <td>12:00 pm - 10:00 pm</td>
     </tr>
   </tbody>
 </table>
