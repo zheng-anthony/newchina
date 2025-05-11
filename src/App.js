@@ -1,31 +1,38 @@
 import React from "react";
 import './App.css';
-import logo from './Pictures/Inside New China.webp';
+import pic from './Pictures/Inside New China.webp';
+import Topbar from './topbar.js';
+import Info from './info.js';
+import Menu from './menu.js';
 
 export default function App() {
   return (
     <>
-      <div className="top_tab">
-        <h1 className="title">New China</h1>
+      <Topbar />
+      <> 
+      {/* Section1 */}
+      <div id="section1"style={{backgroundColor: 'white',padding: '50px',paddingTop: '50px',display: 'flex',justifyContent: 'space-between',alignItems: 'center'}}>
+        <div style={{flex: 1, display: 'flex', flexDirection: 'column'}}>
+          <h1 style={{ fontSize: '3rem', marginBottom: '20px',fontFamily: 'Georgia, serif',  }}>About Us</h1>  
+          <p style={{ fontSize: '2rem', fontWeight: 'bold' , fontFamily: 'Georgia, serif', }}>
+            We are China Restaurant Ching Chong Wing Wong
+          </p>
+        </div>
+        <img 
+          src={pic} 
+          alt="Inside New China" 
+          style={{ width: '50%' }}  
+        />
       </div>
-
-    {/* <div>
-      <img src={logo} alt="New China Logo" className="image" />    
-      </div> */}
-
-    
-
-    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-      <h1>Phone Number</h1>
-      <p>813-837-6865</p>
-      <a
-        href="https://www.ubereats.com/store/new-china/ZSgDp7c1SGGl6clZoEVTSw?diningMode=DELIVERY&ps=1&sc=SEARCH_SUGGESTION"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Link to UberEats!
-      </a>
-    </div>
+      {/* Section2 */}
+      <div id="section2" style={{backgroundColor: 'white', padding: '50px', paddingTop: '100px', height: '500px'}}>
+        <Info/>
+      </div>
+      <div id="section3" style={{backgroundColor: 'white', padding: '50px', paddingTop: '200px', height: '500px'}}>
+        <h2>Menu</h2>
+        <Menu/>
+      </div>
+      </>
     </>
-  );
+  );  
 }
