@@ -15,7 +15,7 @@ export default function Info() {
         }}
       >
         {/* Title */}
-        <h2 style={{ textAlign: 'left', marginBottom: '30px' }}>Info Section</h2>
+        <h1 style={{ textAlign: 'left', marginBottom: '30px', fontSize: '3rem', marginBottom: '20px',fontFamily: 'Georgia, serif' }}>Hours</h1>
 
         {/* Flex container for content */}
         <div
@@ -27,15 +27,6 @@ export default function Info() {
         >
           {/* Left side content */}
           <div style={{ flex: 1 }}>
-            <h1>Phone Number</h1>
-            <p>813-837-6865</p>
-            <a
-              href="https://www.ubereats.com/store/new-china/ZSgDp7c1SGGl6clZoEVTSw?diningMode=DELIVERY&ps=1&sc=SEARCH_SUGGESTION"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Link to UberEats!
-            </a>
             <Hours/>
           </div>
 
@@ -44,18 +35,6 @@ export default function Info() {
             <Map />
           </div>
         </div>
-      </div>
-
-      {/* Contact Information Section */}
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '100vh',
-        }}
-      >
       </div>
     </div>
   );

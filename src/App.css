@@ -52,3 +52,32 @@
 body {
   scroll-padding-top: 120px; /* Adjust this value to the actual height of your Topbar */
 }
+
+.topbar_button {
+  background-color: grey;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.topbar_button:hover {
+  background-color: #A80923;
+}
+
+.ubereats_button {
+  background-color: grey;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+

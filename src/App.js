@@ -13,10 +13,10 @@ export default function App() {
       {/* Section1 */}
       <div id="section1"style={{backgroundColor: 'white',padding: '50px',paddingTop: '50px',display: 'flex',justifyContent: 'space-between',alignItems: 'center'}}>
         <div style={{flex: 1, display: 'flex', flexDirection: 'column'}}>
-          <h1 style={{ fontSize: '3rem', marginBottom: '20px',fontFamily: 'Georgia, serif',  }}>About Us</h1>  
-          <p style={{ fontSize: '2rem', fontWeight: 'bold' , fontFamily: 'Georgia, serif', }}>
-            We are China Restaurant Ching Chong Wing Wong
-          </p>
+          <h1 style={{ fontSize: '3rem', marginBottom: '20px',fontFamily: 'Georgia, serif'}}>About Us</h1>  
+          <p style={{ fontSize: '1.5rem' , fontFamily: 'Georgia, serif'}}>
+            We are a family-owned New York–style Chinese takeout restaurant in the heart of South Tampa, proudly serving our community for over 20 years.          
+            </p>
         </div>
         <img 
           src={pic} 
@@ -29,7 +29,6 @@ export default function App() {
         <Info/>
       </div>
       <div id="section3" style={{backgroundColor: 'white', padding: '50px', paddingTop: '200px', height: '500px'}}>
-        <h2>Menu</h2>
         <Menu/>
       </div>
       </>

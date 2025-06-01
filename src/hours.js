@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hours() {
     return (
-<table style={{ fontSize: '1.5rem', width: '100%', padding: '10px' }}>
+<table style={{ fontSize: '1.5rem', width: '100%', padding: '10px', fontFamily: 'Georgia, serif' }}>
   <thead>
     <tr>
       <th style={{textAlign:"left"}}>Day</th>
