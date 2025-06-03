@@ -1,6 +1,6 @@
-import React from 'react';
-import Map from './map.js';
-import Hours from './hours.js'
+import React from "react";
+import Map from "./map.js";
+import Hours from "./hours.js";
 
 export default function Info() {
   return (
@@ -8,30 +8,40 @@ export default function Info() {
       <div
         id="section2"
         style={{
-          height: '100vh',
-          backgroundColor: 'white',
-          padding: '50px',
-          paddingTop: '20px',
+          height: "100vh",
+          backgroundColor: "white",
+          padding: "50px",
+          paddingTop: "20px",
         }}
       >
-        {/* Title */}
-        <h1 style={{ textAlign: 'left', marginBottom: '30px', fontSize: '3rem', marginBottom: '20px',fontFamily: 'Georgia, serif' }}>Hours</h1>
-
-        {/* Flex container for content */}
-        <div
+        {/* title */}
+        <h1
           style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
+            textAlign: "left",
+            marginBottom: "30px",
+            fontSize: "4rem",
+            marginBottom: "20px",
+            fontFamily: "Georgia, serif",
           }}
         >
-          {/* Left side content */}
+          Hours
+        </h1>
+
+        {/* container */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          {/* left side */}
           <div style={{ flex: 1 }}>
-            <Hours/>
+            <Hours />
           </div>
 
-          {/* Right side - Map */}
-          <div style={{ width: '50%' }}>
+          {/* right side */}
+          <div style={{ width: "50%" }}>
             <Map />
           </div>
         </div>
