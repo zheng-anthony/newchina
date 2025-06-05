@@ -88,7 +88,7 @@ export default function MenuTabs() {
             <div
               style={{ gap: "80px", marginTop: "100px", fontSize: "1.5rem" }}
             >
-              <b>American Special Dishes</b>
+              
             </div>
             <div
               style={{
@@ -101,7 +101,7 @@ export default function MenuTabs() {
             >
               <div>
                 <b>American Special Dishes</b>
-                <p>1. Buffalo/BBQ/Honey Chicken Wings</p>
+                <p>1. Buffalo/BBQ/Honey Chicken Wings 🌶️</p>
                 <p>2. Fried Chicken Wings</p>
                 <p>3. Fried Imitation Crab Sticks | 5pcs</p>
                 <p>4. Fried Jumbo Shrimp | 5pcs</p>
@@ -169,7 +169,7 @@ export default function MenuTabs() {
               {/* 1st row */}
               {/* appetizers */}
               <div>
-                <b>Appetizer</b>
+                <b style={{fontSize: "1.5rem"}}>Appetizer</b>
                 <div
                   style={{
                     display: "grid",
@@ -191,12 +191,12 @@ export default function MenuTabs() {
                   <span>$2.25</span>
 
                   <span>11. Boneless Spare Ribs</span>
-                  <span>Sm. $9.25</span>
-                  <span>Lg. $14.55</span>
+                  <span><b>Sm.</b> $9.25</span>
+                  <span><b>Lg.</b> $14.55</span>
 
                   <span>12. Bar-B-Q Spare Ribs</span>
-                  <span>Sm. $9.25</span>
-                  <span>Lg. $15.50</span>
+                  <span><b>Sm.</b> $9.25</span>
+                  <span><b>Lg.</b> $15.50</span>
 
                   <span>13. Fried Wontons | 10pcs | w/ Sauce</span>
                   <span></span>
@@ -226,7 +226,7 @@ export default function MenuTabs() {
                   <span></span>
                   <span>$5.25</span>
 
-                  <span>19b. Cold Sesame Noodle</span>
+                  <span>19b. Cold Sesame Noodle 🌶️</span>
                   <span></span>
                   <span>$9.25</span>
                 </div>
@@ -242,13 +242,13 @@ export default function MenuTabs() {
                   }}
                 >
                   <span>
-                    <b>Soups | with Crispy Noodles</b>
+                    <b style={{fontSize: "1.5rem"}}>Soups | with Crispy Noodles</b>
                   </span>
                   <span>
-                    <b>Small</b>
+                    <b style={{fontSize: "1.5rem"}}>Small</b>
                   </span>
                   <span>
-                    <b>Large</b>
+                    <b style={{fontSize: "1.5rem"}}>Large</b>
                   </span>
 
                   <span>20. Wonton Soup</span>
@@ -309,13 +309,13 @@ export default function MenuTabs() {
                 }}
               >
                 <span>
-                  <b>Chow Mein or Chop Suey</b>
+                  <b style={{fontSize: "1.5rem"}}>Chow Mein or Chop Suey</b>
                 </span>
                 <span>
-                  <b>Small</b>
+                  <b style={{fontSize: "1.5rem"}}>Small</b>
                 </span>
                 <span>
-                  <b>Large</b>
+                  <b style={{fontSize: "1.5rem"}}>Large</b>
                 </span>
 
                 <span>29. Chicken Chow Mein</span>
@@ -323,7 +323,7 @@ export default function MenuTabs() {
                 <span>$11.95</span>
 
                 <span>30. Roast Pork Chow Mein</span>
-                <span>$7.95</span>
+                <span>$7.25</span>
                 <span>$11.95</span>
 
                 <span>31. Shrimp Chow Mein</span>
@@ -352,13 +352,13 @@ export default function MenuTabs() {
                 }}
               >
                 <span style={{ marginRight: "10px" }}>
-                  <b>Fried Rice</b>
+                  <b style={{fontSize: "1.5rem"}}>Fried Rice</b>
                 </span>
                 <span>
-                  <b>Small</b>
+                  <b style={{fontSize: "1.5rem"}}>Small</b>
                 </span>
                 <span>
-                  <b>Large</b>
+                  <b style={{fontSize: "1.5rem"}}>Large</b>
                 </span>
 
                 <span>35. Plain Fried Rice</span>
@@ -394,12 +394,14 @@ export default function MenuTabs() {
                 <span>$10.75 </span>
               </div>
             </div>
+            {/* row 3 */}
             <div
               style={{
                 display: "flex",
                 gap: "100px",
                 marginTop: "10px",
                 paddingBottom: "50px",
+                alignItems: "flex-start"
               }}
             >
               {/* lo mein */}
@@ -413,13 +415,13 @@ export default function MenuTabs() {
                 }}
               >
                 <span>
-                  <b>Lo Mein</b>
+                  <b style={{fontSize: "1.5rem"}}>Lo Mein</b>
                 </span>
                 <span>
-                  <b>Small</b>
+                  <b style={{fontSize: "1.5rem"}}>Small</b>
                 </span>
                 <span>
-                  <b>Large</b>
+                  <b style={{fontSize: "1.5rem"}}>Large</b>
                 </span>
 
                 <span>43. Vegetable Lo Mein</span>
@@ -428,7 +430,7 @@ export default function MenuTabs() {
 
                 <span>44. Chicken Lo Mein</span>
                 <span>$6.95</span>
-                <span>$6.95</span>
+                <span>$10.50</span>
 
                 <span>45. Roast Pork Lo Mein</span>
                 <span>$6.95</span>
@@ -439,7 +441,7 @@ export default function MenuTabs() {
                 <span>$10.95</span>
 
                 <span>47. Shrimp Lo Mein</span>
-                <span>$$7.50</span>
+                <span>$7.50</span>
                 <span>$10.95</span>
 
                 <span>48. House Special Lo Mein</span>
@@ -457,7 +459,7 @@ export default function MenuTabs() {
                 }}
               >
                 <span>
-                  <b>Mei Fun</b>
+                  <b style={{fontSize: "1.5rem"}}>Mei Fun</b>
                 </span>
                 <span></span>
                 <span></span>
@@ -466,12 +468,655 @@ export default function MenuTabs() {
                 <span></span>
                 <span>$11.95</span>
 
-                <span>Singapor Mei Fun</span>
+                <span>Singapore Mei Fun 🌶️</span>
                 <span></span>
                 <span>$12.25</span>
               </div>
             </div>
+            {/* row 3 */}
+            <div
+              style={{
+                display: "flex",
+                gap: "100px", // 
+                marginTop: "10px",
+                paddingBottom: "50px",
+                alignItems: "flex-start"
+              }}
+            >
+              {/* Egg Foo Young */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "400px 80px 80px",
+                  gap: "10px",
+                  alignItems: "center",
+                }}
+              >
+                <span><b style={{fontSize: "1.5rem"}}>Egg Foo Young</b></span>
+                <span></span>
+                <span></span>
+
+                <span>49. Roast Pork Egg Foo Young</span>
+                <span></span>
+                <span>$11.25</span>
+
+                <span>50. Chicken Egg Foo Young</span>
+                <span></span>
+                <span>$11.25</span>
+                
+                <span>51. Shrimp Egg Foo Young</span>
+                <span></span>
+                <span>$11.75</span>
+
+                <span>52. Vegetable Egg Foo Young</span>
+                <span></span>
+                <span>$11.25</span>
+
+                <span>53. Beef Egg Foo Young</span>
+                <span></span>
+                <span>$11.75</span>
+
+                <span>54. House Special Egg Foo Young</span>
+                <span></span>
+                <span>$11.75</span>
+              </div>
+
+              {/* Pork */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "400px 80px 80px",
+                  gap: "10px",
+                  alignItems: "center",
+                }}
+              >
+                <span><b style={{fontSize: "1.5rem"}}>Pork</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
+
+                <span>55. Roast Pork with Mixed Vegetables</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>56. Roast Pork with Mushroom</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>57. Roast Pork with Oyster Sauce</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>58. Roast Pork with Snow Peas</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>59. Roast Pork with Broccoli</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>60. Roast Pork with Cashew Nuts</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+              </div>
+            </div>
+            {/* Row 4 */}
+                        <div
+              style={{
+                display: "flex",
+                gap: "100px", // 
+                marginTop: "10px",
+                paddingBottom: "50px",
+                alignItems: "flex-start"
+              }}
+            >
+              {/* chicken */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "400px 80px 80px",
+                  gap: "10px",
+                  alignItems: "center",
+                }}
+              >
+                <span><b style={{fontSize: "1.5rem"}}>Chicken</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
+
+                <span>61. Moo Goo Gai Pan</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>62. Chicken with Oyster Sauce</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>63. Chicken with Snow Peas</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>64. Chicken with Mushroom</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>65. Chicken with Broccoli</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>66. Chicken with Curry Sauce 🌶️</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>67. Chicken with Cashew Nuts</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>68. Chicken with Black Bean Sauce</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>69. Szechuan Chicken 🌶️</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>70. Hunan Chicken 🌶️</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>71. Chicken with Garlic Sauce 🌶️</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>72. Kung Bo Chicken 🌶️</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>73. Chicken with Mixed Vegetables</span>
+                <span>$7.95</span>
+                <span>$12.55</span>
+
+                <span>74. Boneless Chicken</span>
+                <span></span>
+                <span>$12.55</span>
+
+                <span>75. Lemon Chicken</span>
+                <span></span>
+                <span>$12.55</span>
+              </div>
+
+              {/* beef */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "400px 80px 80px",
+                  gap: "10px",
+                  alignItems: "center",
+                }}
+              >
+                <span><b style={{fontSize: "1.5rem"}}>Beef</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
+
+                <span>76. Pepper Steak with Onion</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>77. Beef with Mushrooms</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>78. Beef with Oyster Sauce</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>79. Beef with Snow Peas</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>80. Beef with Broccoli</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>81. Beef with Curry Sauce 🌶️</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>82. Beef with Mixed Vegetables</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>83. Szechuan Beef 🌶️</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>84. Hunan Beef 🌶️</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+
+                <span>85. Beef with Garlic Sauce 🌶️</span>
+                <span>$8.75</span>
+                <span>$12.95</span>
+              </div>
+            </div>
+            {/* row 5 */}
+                        <div
+              style={{
+                display: "flex",
+                gap: "100px", // 
+                marginTop: "10px",
+                paddingBottom: "50px",
+                alignItems: "flex-start"
+              }}
+            >
+              {/* Seafood */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "400px 80px 80px",
+                  gap: "10px",
+                  alignItems: "center",
+                }}
+              >
+                <span><b style={{fontSize: "1.5rem"}}>Seafood</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
+
+                <span>86. Lobster Sauce</span>
+                <span>$6.95</span>
+                <span>$9.25</span>
+
+                  <span>87. Shrimp with Lobster Sauce</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>88. Shrimp with Snow Peas</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>89. Shrimp with Mushrooms</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>90. Shrimp with Oyster Sauce</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>91. Shrimp with Broccoli</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>92. Diced Chicken & Shrimp</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>93. Shrimp with Almond Ding</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>94. Shrimp with Curry Sauce</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>95. Shrimp with Cashew Nuts</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>96. Shrimp with Mixed Vegetables</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>97. Shrimp with Black Bean Sauce</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>98. Szechuan Shrimp 🌶️</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>99. Hunan Shrimp 🌶️</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>100. Shrimp with Garlic Sauce 🌶️</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>101. Hot & Spicy Shrimp 🌶️</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+
+                <span>102. Kung Bo Shrimp 🌶️</span>
+                <span>$8.95</span>
+                <span>$13.25</span>
+              </div>
+
+              {/* Sweet & sour */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "400px 80px 80px",
+                  gap: "10px",
+                  alignItems: "center",
+                }}
+              >
+                <span><b style={{fontSize: "1.5rem"}}>Sweet & Sour</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
+
+                <span>103. Sweet & Sour Pork</span>
+                <span>$7.50</span>
+                <span>$12.25</span>
+
+                <span>104. Sweet & Sour Chicken</span>
+                <span>$7.50</span>
+                <span>$12.25</span>
+
+                <span>105. Sweet & Sour Shrimp</span>
+                <span>$8.25</span>
+                <span>$13.25</span>
+
+                <span>106. Sweet & Sour Triple</span>
+                <span></span>
+                <span>$13.25</span>
+
+                <span style={{paddingTop:"50px", fontSize:"1.5rem"}}><b>Vegetables</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
+
+                <span>107. Mixed Chinese Vegetables</span>
+                <span>$6.95</span>
+                <span>$11.25</span>
+
+                <span>108. Broccoli with Garlic Sauce 🌶️</span>
+                <span>$6.95</span>
+                <span>$11.25</span>
+
+                <span>109. Ma Po Tofu with Pork 🌶️</span>
+                <span></span>
+                <span>$11.95</span>
+
+                <span>110. Home Style Bean Curd</span>
+                <span></span>
+                <span>$11.95</span>
+
+                <span>110a. General Tso's Bean curd 🌶️</span>
+                <span></span>
+                <span>$11.95</span>
+
+                <span style={{paddingTop:"50px", fontSize:"1.5rem"}}><b>Special Diet Menu | White Rice & Brown Sauce on the Side</b></span>
+                <span><b></b></span>
+                <span><b></b></span>
+
+                <span>111. Steamed Mixed Vegetables</span>
+                <span></span>
+                <span>$10.99</span>
+
+                <span>112. Steamed Broccoli</span>
+                <span></span>
+                <span>$10.99</span>
+
+                <span>113. Steamed Chicken with Broccoli</span>
+                <span></span>
+                <span>$12.55</span>
+
+                <span>114. Steamed Chicken with Mixed Vegetables</span>
+                <span></span>
+                <span>$12.55</span>
+
+                <span>115. Steamed Shrimp with Broccoli</span>
+                <span></span>
+                <span>$13.25</span>
+
+                <span>116. Steamed Shrimp & Chicken with Mixed Vegetables</span>
+                <span></span>
+                <span>$13.25</span>
+
+                <span>117. Steamed Beef with Broccoli</span>
+                <span></span>
+                <span>$13.25</span>  
+              </div>
+            </div>
+            {/* row 6 */}
+                                    <div
+              style={{
+                display: "flex",
+                gap: "100px", // 
+                marginTop: "10px",
+                paddingBottom: "50px",
+                alignItems: "flex-start"
+              }}
+            >
+              {/* Chef's specialties */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "400px 80px 80px",
+                  gap: "10px",
+                  alignItems: "center",
+                }}
+              >
+                <span><b style={{fontSize: "1.5rem"}}>Chef Specialties</b></span>
+                <span><b></b></span>
+                <span><b></b></span>
+
+                <span>S1. Seafood Delight</span>
+                <span></span>
+                <span>$15.25</span>
+
+                <span>S2. Dragon & Pheonix</span>
+                <span></span>
+                <span>$15.25</span>
+
+                <span>S3. Happy Family</span>
+                <span></span>
+                <span>$15.25</span>
+
+                <span>S4. Four Seaon</span>
+                <span></span>
+                <span>$15.25</span>
+
+                <span>S5. Scallops with Beef</span>
+                <span></span>
+                <span>$15.25</span>
+
+                <span>S6. Sliced Shrimp Versus Pork Hunan Style 🌶️</span>
+                <span></span>
+                <span>$15.25</span>
+
+                <span>S7. General Tso's Chicken 🌶️</span>
+                <span></span>
+                <span>$12.95</span>
+
+                <span>S8. Chicken with Orange Flavor 🌶️</span>
+                <span></span>
+                <span>$12.95</span>
+
+                <span>S9. Sesame Chicken</span>
+                <span></span>
+                <span>$12.95</span>
+
+                <span>S10. Mongolian Beef 🌶️</span>
+                <span></span>
+                <span>$13.25</span>
+
+                <span>S11. Honey Chicken</span>
+                <span></span>
+                <span>$12.95</span>
+
+                <span>S12. General Tso's Shrimp 🌶️</span>
+                <span></span>
+                <span>$13.95</span>
+
+                <span>S13. Orange Beef 🌶️</span>
+                <span></span>
+                <span>$13.95</span>
+
+                <span>S14. Bourbon Chicken</span>
+                <span></span>
+                <span>$13.95</span>
+
+                <span style={{paddingTop:"50px", fontSize: "1.5rem"}}><b>Side Orders</b></span>
+                <span></span>
+                <span></span>
+
+                <span>Extra Rice</span>
+                <span><b>Sm.</b> $2.50</span>
+                <span><b>Lg.</b> $4.25</span>  
+
+                <span>Fortune Cookies | 5pcs</span>
+                <span></span>
+                <span>$0.75</span>
+
+                <span>Crispy Noodles</span>
+                <span></span>
+                <span>$0.75</span>
+
+                <span>Soda</span>
+                <span></span>
+                <span>$1.50</span>
+                
+                <span>French Fries</span>
+                <span></span>
+                <span>$5.75</span>
+
+              </div>
+
+              {/* Combination */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "400px 80px 80px",
+                  gap: "10px",
+                  alignItems: "center",
+                }}
+              >
+                <span><b style={{fontSize: "1.5rem"}}>Combination</b></span>
+                <span><b></b></span>
+                <span><b></b></span>
+
+                <span>C1. Chicken Chow Mein</span>
+                <span></span>
+                <span>$11.16</span>
+
+                  <span>C2. Shrimp Chow Mein</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C3. Roast Pork or Chicken Lo Mein</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C4. Sweet & Sour Chicken or Pork</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C5. Roast Pork or Chicken Egg Foo Young</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C6. Moo Goo Gai Pan</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C7. Chicken with Broccoli</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C8. Beef with Broccoli</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C9. Pepper Steak with Onion</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C10. Chicken with Cashew Nuts</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C11. Boneless Spare Ribs</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C12. Shrimp with Lobster Sauce</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C13. Beef with Mixed Vegetables</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C14. Chicken with Garlic Sauce 🌶️</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C15. General Tso's Chicken 🌶️</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C16. Hunan Beef 🌶️</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C17. Szechuan Beef 🌶️</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C18. Shrimp with Mixed Vegetables</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C19. Shrimp with Broccoli</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C20. Roast Pork with Broccoli</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C21. Roast Pork or Chicken with Mixed Vegetables</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C22. Bar-B-Q Spare Ribs</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C23. Shrimp with Garlic Sauce 🌶️</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C24. Sesame Chicken</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C25. Mongolian Beef 🌶️</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C26. Kung Pao Chicken 🌶️</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C27. Triple Crown</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C28. Bourbon Chicken</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C29. Honey Chicken</span>
+                <span></span>
+                <span>$11.16</span>
+
+                <span>C30. Chicken with Orange Flavor 🌶️</span>
+                <span></span>
+                <span>$11.16</span>
+              </div>
+            </div>
+
           </>
+          
         )}
       </div>
     </div>
