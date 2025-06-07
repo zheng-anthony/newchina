@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import pic from "./Pictures/Inside New China.webp";
 import Topbar from "./topbar.js";
 import Info from "./info.js";
 import Menu from "./menu.js";
+import ImageSlider from "./slider.js"
 
 export default function App() {
   return (
@@ -11,6 +11,7 @@ export default function App() {
       <Topbar />
       <>
         {/* Section1 */}
+        <ImageSlider />
         <div
           id="section1"
           style={{
@@ -38,7 +39,8 @@ export default function App() {
               20 years.
             </p>
           </div>
-          <img src={pic} alt="Inside New China" style={{ width: "50%" }} />
+          {/* slider */}
+          <ImageSlider />
         </div>
         {/* Section2 */}
         <div

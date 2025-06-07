@@ -695,6 +695,26 @@ export default function MenuTabs() {
                 <span>85. Beef with Garlic Sauce 🌶️</span>
                 <span>$8.75</span>
                 <span>$12.95</span>
+
+                <span style={{fontSize: "1.5rem", paddingTop:"50px"}}><b>Sweet & Sour</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
+
+                <span>103. Sweet & Sour Pork</span>
+                <span>$7.50</span>
+                <span>$12.25</span>
+
+                <span>104. Sweet & Sour Chicken</span>
+                <span>$7.50</span>
+                <span>$12.25</span>
+
+                <span>105. Sweet & Sour Shrimp</span>
+                <span>$8.25</span>
+                <span>$13.25</span>
+
+                <span>106. Sweet & Sour Triple</span>
+                <span></span>
+                <span>$13.25</span>
               </div>
             </div>
             {/* row 5 */}
@@ -787,114 +807,8 @@ export default function MenuTabs() {
                 <span>102. Kung Bo Shrimp 🌶️</span>
                 <span>$8.95</span>
                 <span>$13.25</span>
-              </div>
 
-              {/* Sweet & sour */}
-              <div
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "400px 80px 80px",
-                  gap: "10px",
-                  alignItems: "center",
-                }}
-              >
-                <span><b style={{fontSize: "1.5rem"}}>Sweet & Sour</b></span>
-                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
-                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
-
-                <span>103. Sweet & Sour Pork</span>
-                <span>$7.50</span>
-                <span>$12.25</span>
-
-                <span>104. Sweet & Sour Chicken</span>
-                <span>$7.50</span>
-                <span>$12.25</span>
-
-                <span>105. Sweet & Sour Shrimp</span>
-                <span>$8.25</span>
-                <span>$13.25</span>
-
-                <span>106. Sweet & Sour Triple</span>
-                <span></span>
-                <span>$13.25</span>
-
-                <span style={{paddingTop:"50px", fontSize:"1.5rem"}}><b>Vegetables</b></span>
-                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
-                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
-
-                <span>107. Mixed Chinese Vegetables</span>
-                <span>$6.95</span>
-                <span>$11.25</span>
-
-                <span>108. Broccoli with Garlic Sauce 🌶️</span>
-                <span>$6.95</span>
-                <span>$11.25</span>
-
-                <span>109. Ma Po Tofu with Pork 🌶️</span>
-                <span></span>
-                <span>$11.95</span>
-
-                <span>110. Home Style Bean Curd</span>
-                <span></span>
-                <span>$11.95</span>
-
-                <span>110a. General Tso's Bean curd 🌶️</span>
-                <span></span>
-                <span>$11.95</span>
-
-                <span style={{paddingTop:"50px", fontSize:"1.5rem"}}><b>Special Diet Menu | White Rice & Brown Sauce on the Side</b></span>
-                <span><b></b></span>
-                <span><b></b></span>
-
-                <span>111. Steamed Mixed Vegetables</span>
-                <span></span>
-                <span>$10.99</span>
-
-                <span>112. Steamed Broccoli</span>
-                <span></span>
-                <span>$10.99</span>
-
-                <span>113. Steamed Chicken with Broccoli</span>
-                <span></span>
-                <span>$12.55</span>
-
-                <span>114. Steamed Chicken with Mixed Vegetables</span>
-                <span></span>
-                <span>$12.55</span>
-
-                <span>115. Steamed Shrimp with Broccoli</span>
-                <span></span>
-                <span>$13.25</span>
-
-                <span>116. Steamed Shrimp & Chicken with Mixed Vegetables</span>
-                <span></span>
-                <span>$13.25</span>
-
-                <span>117. Steamed Beef with Broccoli</span>
-                <span></span>
-                <span>$13.25</span>  
-              </div>
-            </div>
-            {/* row 6 */}
-                                    <div
-              style={{
-                display: "flex",
-                gap: "100px", // 
-                marginTop: "10px",
-                paddingBottom: "50px",
-                alignItems: "flex-start"
-              }}
-            >
-              {/* Chef's specialties */}
-              <div
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "400px 80px 80px",
-                  gap: "10px",
-                  alignItems: "center",
-                }}
-              >
-                <span><b style={{fontSize: "1.5rem"}}>Chef Specialties</b></span>
+                <span style={{paddingTop:"50px", fontSize: "1.5rem"}}><b>Chef Specialties</b></span>
                 <span><b></b></span>
                 <span><b></b></span>
 
@@ -977,10 +891,9 @@ export default function MenuTabs() {
                 <span>French Fries</span>
                 <span></span>
                 <span>$5.75</span>
-
               </div>
 
-              {/* Combination */}
+              {/* Sweet & sour */}
               <div
                 style={{
                   display: "grid",
@@ -989,7 +902,65 @@ export default function MenuTabs() {
                   alignItems: "center",
                 }}
               >
-                <span><b style={{fontSize: "1.5rem"}}>Combination</b></span>
+
+
+                <span style={{paddingTop:"50px", fontSize:"1.5rem"}}><b>Vegetables</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Small</b></span>
+                <span><b style={{fontSize: "1.5rem"}}>Large</b></span>
+
+                <span>107. Mixed Chinese Vegetables</span>
+                <span>$6.95</span>
+                <span>$11.25</span>
+
+                <span>108. Broccoli with Garlic Sauce 🌶️</span>
+                <span>$6.95</span>
+                <span>$11.25</span>
+
+                <span>109. Ma Po Tofu with Pork 🌶️</span>
+                <span></span>
+                <span>$11.95</span>
+
+                <span>110. Home Style Bean Curd</span>
+                <span></span>
+                <span>$11.95</span>
+
+                <span>110a. General Tso's Bean curd 🌶️</span>
+                <span></span>
+                <span>$11.95</span>
+
+                <span style={{paddingTop:"50px", fontSize:"1.5rem"}}><b>Special Diet Menu | White Rice & Brown Sauce on the Side</b></span>
+                <span><b></b></span>
+                <span><b></b></span>
+
+                <span>111. Steamed Mixed Vegetables</span>
+                <span></span>
+                <span>$10.99</span>
+
+                <span>112. Steamed Broccoli</span>
+                <span></span>
+                <span>$10.99</span>
+
+                <span>113. Steamed Chicken with Broccoli</span>
+                <span></span>
+                <span>$12.55</span>
+
+                <span>114. Steamed Chicken with Mixed Vegetables</span>
+                <span></span>
+                <span>$12.55</span>
+
+                <span>115. Steamed Shrimp with Broccoli</span>
+                <span></span>
+                <span>$13.25</span>
+
+                <span>116. Steamed Shrimp & Chicken with Mixed Vegetables</span>
+                <span></span>
+                <span>$13.25</span>
+
+                <span>117. Steamed Beef with Broccoli</span>
+                <span></span>
+                <span>$13.25</span>  
+
+                <span style={{fontSize: "1.5rem", paddingTop:"50px"}}><b>Combination</b></span>
                 <span><b></b></span>
                 <span><b></b></span>
 
