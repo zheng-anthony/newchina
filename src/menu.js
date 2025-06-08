@@ -10,6 +10,7 @@ export default function MenuTabs() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          marginTop:"100px",
           marginBottom: "10px",
           paddingBottom: "100px",
         }}
@@ -891,6 +892,10 @@ export default function MenuTabs() {
                 <span>French Fries</span>
                 <span></span>
                 <span>$5.75</span>
+
+                <span>Homemade Iced Tea</span>
+                <span></span>
+                <span>$2.75</span>
               </div>
 
               {/* Sweet & sour */}

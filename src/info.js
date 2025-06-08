@@ -8,8 +8,7 @@ export default function Info() {
       <div
         id="section2"
         style={{
-          height: "100vh",
-          backgroundColor: "white",
+          height: "75vh",
           padding: "50px",
           paddingTop: "20px",
         }}
@@ -18,13 +17,13 @@ export default function Info() {
         <h1
           style={{
             textAlign: "left",
+            marginTop:"225px",
             marginBottom: "30px",
-            fontSize: "4rem",
-            marginBottom: "20px",
+            fontSize: "3rem",
             fontFamily: "Georgia, serif",
           }}
         >
-          Hours
+          Open Hours
         </h1>
 
         {/* container */}

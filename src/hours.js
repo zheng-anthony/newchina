@@ -1,19 +1,19 @@
 import React from "react";
 
 export default function Hours() {
+  
   return (
-    <table
-      style={{
-        fontSize: "2.5rem",
-        width: "100%",
-        padding: "10px",
-        fontFamily: "Georgia, serif",
-      }}
-    >
+    <div>
+  <table style={{
+    fontSize: "2rem",
+    width: "100%",
+    padding: "20px",
+    borderRadius: "10px",
+    fontFamily: "Georgia, serif"
+  }}>
       <thead>
         <tr>
           <th style={{ textAlign: "left" }}>Day</th>
-          <th style={{ textAlign: "left" }}>Hours</th>
         </tr>
       </thead>
       <tbody>
@@ -47,5 +47,6 @@ export default function Hours() {
         </tr>
       </tbody>
     </table>
+    </div>
   );
 }
