@@ -6,11 +6,14 @@ import Menu from "./menu.js";
 import ImageSlider from "./slider.js"
 import redback1 from "./Pictures/redback1.jpg"
 import menuback from "./Pictures/menuback.jpg"
+import Dropdown from "./mobiledropdown.js"
 
 export default function App() {
   return (
     <>
+      <Dropdown/>
       <Topbar />
+
       <>
         {/* Section1 */}
       <div id="section1">
