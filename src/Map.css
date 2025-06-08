@@ -1,0 +1,20 @@
+.map-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.map-iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* Larger maps for wider screens */
+@media (min-width: 768px) {
+  .map-iframe {
+    height: 400px;
+  }
+}
+    

@@ -1,0 +1,31 @@
+.hours-container {
+  padding: 20px;
+  width: 100%;
+  overflow-x: auto;
+  font-family: Georgia, serif;
+}
+
+.hours-table {
+  width: 100%;
+  font-size: 1.25rem;
+  border-collapse: collapse;
+}
+
+.hours-table th,
+.hours-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .hours-table {
+    font-size: 1rem;
+  }
+
+  .hours-table th,
+  .hours-table td {
+    padding: 5px;
+  }
+}

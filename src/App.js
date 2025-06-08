@@ -13,90 +13,32 @@ export default function App() {
       <Topbar />
       <>
         {/* Section1 */}
-      <div 
-      id="section1"
-      style={{ position: "relative", width: "100%", overflow: "hidden" }}>
-        <img
-          src={redback1}
-          style={{
-            width: "100%",
-            height: "auto", 
-            display: "block",
-            paddingTop:"25px"
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            top: "0",
-            left: "0",
-            width: "100%",
-            height: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            boxSizing: "border-box",
-            flexDirection:"column"
-          }}
-        >
+      <div id="section1">
+  <img src={redback1} />
+  <div className="overlay">
+    <h1>About Us</h1>
+    <p>
+      We are a family-owned New York-style Chinese takeout restaurant in the
+      heart of South Tampa, proudly serving our community for over 20 years.
+    </p>
+    <div className="slider-container">
+      <ImageSlider />
+    </div>
+  </div>
+</div>
 
-            <h1 style={{fontSize:"2.5rem", color: "white", textAlign: "center", fontFamily: "Georgia, serif",}}>About Us</h1>
-            <p style={{fontSize:"2.5rem", color: "white", textAlign: "center", fontFamily: "Georgia, serif", maxWidth:"1000px"}}>
-              We are a family-owned New York-style Chinese takeout restaurant in
-              the heart of South Tampa, proudly serving our community for over
-              20 years.
-            </p>
-          {/* slider */}
-          <div
-            style={{
-              maxWidth: "1000px",
-              backgroundColor: "rgba(0, 0, 0, 0.5)",
-              borderRadius: "10px",
-              paddingTop:"50px",
-              paddingBottom:"25px",
-              textAlign: "center",
-            }}
-          ><ImageSlider/></div>
-        </div>
-      </div>
-        {/* background for section2/3 */}
-        <div style={{
-            width: "100%",
-            backgroundImage: `url(${menuback})`,
-            backgroundSize: "cover",
-            backgroundAttachment: "fixed",
-            padding: "60px ",
-            boxSizing: "border-box",
-          }}>
-            {/* section2 */}
-        <div id="section2">
-          <div
-            style={{
-              maxWidth: "1500px",
-              margin: "0 auto",
-              backgroundColor: "rgba(255, 255, 255, 0.9)",
-              padding: "20px",
-              borderRadius: "10px",
-            }}
-          >
-            <Info />
-          </div>
-        </div>
-        {/* section3 */}
-        <div id="section3">
-          <div
-            style={{
-              maxWidth: "1500px",
-              margin: "0 auto",
-              backgroundColor: "rgba(255, 255, 255, 0.9)",
-              padding: "20px",
-              borderRadius: "10px",
-            }}
-          >
-            <Menu />
-          </div>
-        </div>
-          </div>
+<div
+  className="section-wrapper"
+  style={{ backgroundImage: `url(${menuback})` }}
+>
+  <div id="section2" className="section-content">
+    <Info />
+  </div>
+  <div id="section3" className="section-content">
+    <Menu />
+  </div>
+</div>
+
       </>
     </>
   );
