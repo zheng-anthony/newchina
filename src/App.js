@@ -32,7 +32,7 @@ export default function App() {
         </div>
 
         <div
-          className="section-wrapper"
+          className="section2-wrapper"
           style={{ backgroundImage: `url(${menuback})` }}
         >
           <div id="section2" className="section-content">
@@ -40,7 +40,7 @@ export default function App() {
           </div>
         </div>
         <div
-          className="section-wrapper"
+          className="section3-wrapper"
           style={{ backgroundImage: `url(${menuback2})` }}
         >
           <div id="section3" className="section-content">

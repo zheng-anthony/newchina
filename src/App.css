@@ -69,6 +69,22 @@ body {
   box-sizing: border-box;
 }
 
+.section2-wrapper {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.section3-wrapper {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
 .section-content {
   max-width: 1500px;
   margin: 0 auto;
@@ -98,5 +114,17 @@ body {
   .slider-container {
   display: none;
 }
+  .section3-wrapper {
+    background-image: none !important;
+    background-color: #8b0000;
+    background-attachment: scroll;
+    padding: 20px;
+  }
+
+  .section2-wrapper {
+    background-attachment: fixed;
+    padding: 20px;
+  }
+  
 }
 
