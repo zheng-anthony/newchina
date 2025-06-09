@@ -1,58 +1,15 @@
 html {
   scroll-behavior: smooth;
 }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+* {
+  box-sizing: border-box;
 }
-.title {
+
+body {
   margin: 0;
-  margin-top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  color: red;
-  font-size: 3rem;
-  font-weight: bold;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-    1px 1px 0 black;
-}
-.image {
-  width: 100%;
-  max-width: 1000px;
-  display: block;
-  margin: 0 auto;
-}
-.top_tab {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  text-align: center;
-  padding: 0 0 0 20px;
-  z-index: 1000;
-  border-bottom: 1px solid black;
-  text-align: left;
-}
-
-.buttons {
-  background-color: grey;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-}
-
-.buttons:hover {
-  background-color: #a80923;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Georgia, serif;
 }
 
 #section1 {
@@ -78,7 +35,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
   padding: 20px;
   text-align: center;
 }
@@ -101,19 +57,17 @@ html {
 .slider-container {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  padding-bottom: 10px;
+  padding: 50px 20px 25px;
   text-align: center;
 }
 
 .section-wrapper {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   width: 100%;
-  padding: 2rem 1rem; 
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 60px;
   box-sizing: border-box;
 }
-
 
 .section-content {
   max-width: 1500px;
@@ -133,10 +87,6 @@ html {
     max-width: 90%;
   }
 
-  .slider-container {
-    display: none; 
-  }
-
   .section-wrapper {
     padding: 20px;
   }
@@ -144,5 +94,9 @@ html {
   .section-content {
     padding: 15px;
   }
+
+  .slider-container {
+  display: none;
+}
 }
 
