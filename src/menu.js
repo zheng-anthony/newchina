@@ -2110,9 +2110,10 @@ export default function MenuTabs() {
                   </div>
                 </div>
                 <div className="menu-item-box">
-                  <div className="box-content"></div>
-                  <b>106. Sweet & Sour Triple</b>
-                  <span>$13.25</span>
+                  <div className="box-content">
+                    <b>106. Sweet & Sour Triple</b>
+                    <span>$13.25</span>
+                  </div>
                 </div>
               </div>
               {/*  */}
