@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -35,17 +39,6 @@
   text-align: left;
 }
 
-.top_tab title {
-  font-size: 2.5rem;
-  color: red;
-  margin: 0;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-    1px 1px 0 black;
-}
-body {
-  scroll-padding-top: 120px; /* Adjust this value to the actual height of your Topbar */
-}
-
 .buttons {
   background-color: grey;
   color: white;
@@ -61,6 +54,7 @@ body {
 .buttons:hover {
   background-color: #a80923;
 }
+
 #section1 {
   position: relative;
   width: 100%;
@@ -105,21 +99,21 @@ body {
 }
 
 .slider-container {
-  max-width: 1000px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  padding: 50px 20px 25px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
-/* Section 2 & 3 wrapper */
 .section-wrapper {
-  width: 100%;
   background-size: cover;
-  background-attachment: fixed;
-  padding: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 2rem 1rem; 
   box-sizing: border-box;
 }
+
 
 .section-content {
   max-width: 1500px;
@@ -129,7 +123,6 @@ body {
   border-radius: 10px;
 }
 
-/* Mobile Adjustments */
 @media (max-width: 768px) {
   #section1 h1 {
     font-size: 1.8rem;
@@ -141,7 +134,7 @@ body {
   }
 
   .slider-container {
-    padding: 20px 10px;
+    display: none; 
   }
 
   .section-wrapper {
@@ -152,18 +145,4 @@ body {
     padding: 15px;
   }
 }
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  font-family: Georgia, serif;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}

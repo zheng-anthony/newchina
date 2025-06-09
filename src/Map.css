@@ -11,7 +11,6 @@
   border-radius: 10px;
 }
 
-/* Larger maps for wider screens */
 @media (min-width: 768px) {
   .map-iframe {
     height: 400px;
