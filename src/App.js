@@ -7,6 +7,7 @@ import ImageSlider from "./slider.js";
 import redback1 from "./Pictures/redback1.jpg";
 import menuback from "./Pictures/menuback.jpg";
 import Dropdown from "./mobiledropdown.js";
+import menuback2 from "./Pictures/menuback2.jpg";
 
 export default function App() {
   return (
@@ -37,6 +38,11 @@ export default function App() {
           <div id="section2" className="section-content">
             <Info />
           </div>
+        </div>
+        <div
+          className="section-wrapper"
+          style={{ backgroundImage: `url(${menuback2})` }}
+        >
           <div id="section3" className="section-content">
             <Menu />
           </div>
