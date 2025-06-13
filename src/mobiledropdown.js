@@ -25,7 +25,14 @@ export default function MobileDropdown() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Order Online
+          UberEats
+        </a>
+        <a
+          href="https://www.doordash.com/store/new-china-temple-terrace-1650770/64777000/?srsltid=AfmBOooHhLLMoppknhO7FeqbIB3Z0CQurQMAScqDRbcklpb-c89xm9tY"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DoorDash
         </a>
         <a href="tel:8138376865">📞 813-837-6865</a>
       </div>

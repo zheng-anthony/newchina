@@ -37,6 +37,33 @@
   justify-content: space-between;
 }
 
+.menu-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.menu-buttons button {
+  background: none;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: black;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.menu-buttons button:hover {
+  color: grey;
+  background-color: transparent; 
+}
+
+
+
 @media (max-width: 768px) {
   .menu-items-grid {
     grid-template-columns: 1fr;

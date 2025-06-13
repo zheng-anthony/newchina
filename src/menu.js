@@ -18,13 +18,9 @@ export default function MenuTabs() {
       >
         <h1 style={{ fontSize: "2rem", marginBottom: "10px" }}>Our Menus</h1>
 
-        <div style={{ display: "flex", gap: "20px" }}>
-          <button className="buttons" onClick={() => setOption("lunch")}>
-            Lunch Menu
-          </button>
-          <button className="buttons" onClick={() => setOption("dinner")}>
-            Dinner Menu
-          </button>
+        <div className="menu-buttons" style={{ display: "flex", gap: "20px" }}>
+          <button onClick={() => setOption("lunch")}>Lunch Menu</button>
+          <button onClick={() => setOption("dinner")}>Dinner Menu</button>
         </div>
         {/* lunch section */}
         {option === "lunch" && (

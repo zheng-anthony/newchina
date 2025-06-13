@@ -1,0 +1,35 @@
+.slider-image-wrapper {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-animation-right {
+  animation: slideInFromRight 0.8s ease-in-out;
+}
+
+.slide-animation-left {
+  animation: slideInFromLeft 0.8s ease-in-out;
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
