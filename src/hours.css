@@ -27,5 +27,6 @@
   .hours-table th,
   .hours-table td {
     padding: 5px;
+    text-align: left;;
   }
 }

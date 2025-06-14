@@ -22,7 +22,7 @@ export default function App() {
         >
           <div
             id="section1"
-            style={{ margintBottom: "100px", paddingTop: "100px" }}
+            style={{ marginBottom: "100px", paddingTop: "100px" }}
           >
             <div className="first-container">
               <div

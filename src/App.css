@@ -100,7 +100,15 @@ body {
   }
 
   .section-content {
-    padding: 15px;
+    width: 100%;
+    overflow-x: auto;
+    word-break: break-word;
+  }
+
+
+  td {
+    white-space: normal;
+    font-size: 0.8rem; 
   }
 
 
@@ -108,7 +116,7 @@ body {
     background-image: none !important;
     background-color: #16181a;
     background-attachment: scroll;
-    padding: 20px;
+    padding: 10px;
   }
 
   .section2-wrapper {
@@ -117,6 +125,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;
     min-height: 100vh;
+    padding: 10px;
   }
   
 }
