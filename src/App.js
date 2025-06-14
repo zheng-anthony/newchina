@@ -24,7 +24,7 @@ export default function App() {
             id="section1"
             style={{ margintBottom: "100px", paddingTop: "100px" }}
           >
-            <div className="slider-container">
+            <div className="first-container">
               <div
                 style={{
                   maxWidth: "1000px",
@@ -39,7 +39,9 @@ export default function App() {
                   community for over 20 years.
                 </p>
               </div>
-              <ImageSlider />
+              <div className="slider-container">
+                <ImageSlider />
+              </div>
             </div>
           </div>
           <div id="section2" className="section-content">

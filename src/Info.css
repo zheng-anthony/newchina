@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .info-wrapper {
     padding: 50px;
   }
@@ -30,7 +30,7 @@
     font-size: 3rem;
     margin-top: 150px;
   }
-
+ 
   .info-flex {
     flex-direction: row;
     justify-content: space-between;
@@ -47,10 +47,10 @@
     max-width: 600px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .section-wrapper {
     background-image: none !important;
-    background-color: #8b0000; /* replace with your preferred color */
+    background-color: #8b0000; 
   }
 }
 

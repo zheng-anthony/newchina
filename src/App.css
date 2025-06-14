@@ -49,7 +49,7 @@ body {
   max-width: 1000px;
 }
 
-.slider-container {
+.first-container {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 50px 20px 25px;
@@ -57,11 +57,12 @@ body {
   margin-bottom: 120px;
 }
 
+
 .section2-wrapper {
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
-  padding: 60px;
+  padding: 60px; 
   box-sizing: border-box;
 }
 
@@ -81,7 +82,10 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .slider-container {
+    display: none
+  }
   #section1 h1 {
     font-size: 1.8rem;
   }
@@ -99,9 +103,7 @@ body {
     padding: 15px;
   }
 
-  .slider-container {
-  display: none;
-}
+
   .section3-wrapper {
     background-image: none !important;
     background-color: #8b0000;
