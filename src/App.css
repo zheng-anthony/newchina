@@ -106,14 +106,17 @@ body {
 
   .section3-wrapper {
     background-image: none !important;
-    background-color: #8b0000;
+    background-color: #16181a;
     background-attachment: scroll;
     padding: 20px;
   }
 
   .section2-wrapper {
-    background-attachment: fixed;
-    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 100vh;
   }
   
 }
