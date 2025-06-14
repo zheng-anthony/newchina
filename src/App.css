@@ -18,12 +18,7 @@ body {
   overflow: hidden;
 }
 
-#section1 img {
-  width: 100%;
-  height: auto;
-  display: block;
-  padding-top: 25px;
-}
+
 
 #section1 .overlay {
   position: absolute;
@@ -59,14 +54,7 @@ body {
   border-radius: 10px;
   padding: 50px 20px 25px;
   text-align: center;
-}
-
-.section-wrapper {
-  width: 100%;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 60px;
-  box-sizing: border-box;
+  margin-bottom: 120px;
 }
 
 .section2-wrapper {

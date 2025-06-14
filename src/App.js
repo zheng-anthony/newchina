@@ -16,25 +16,32 @@ export default function App() {
       <Topbar />
 
       <>
-        <div id="section1">
-          <img src={redback1} />
-          <div className="overlay">
-            <h1>About Us</h1>
-            <p>
-              We are a family-owned New York-style Chinese takeout restaurant in
-              the heart of South Tampa, proudly serving our community for over
-              20 years.
-            </p>
-            <div className="slider-container">
-              <ImageSlider />
-            </div>
-          </div>
-        </div>
-
         <div
           className="section2-wrapper"
           style={{ backgroundImage: `url(${menuback})` }}
         >
+          <div
+            id="section1"
+            style={{ margintBottom: "100px", paddingTop: "100px" }}
+          >
+            <div className="slider-container">
+              <div
+                style={{
+                  maxWidth: "1000px",
+                  textAlign: "center",
+                  margin: "0 auto",
+                }}
+              >
+                <h1>About Us</h1>
+                <p>
+                  We are a family-owned New York-style Chinese takeout
+                  restaurant in the heart of South Tampa, proudly serving our
+                  community for over 20 years.
+                </p>
+              </div>
+              <ImageSlider />
+            </div>
+          </div>
           <div id="section2" className="section-content">
             <Info />
           </div>
