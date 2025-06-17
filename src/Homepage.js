@@ -1,21 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import "./App.css";
 import Topbar from "./topbar.js";
 import Info from "./info.js";
-import Menu from "./Menu Page/menu.js";
 import ImageSlider from "./slider.js";
-import redback1 from "./Pictures/redback1.jpg";
 import menuback from "./Pictures/menuback.jpg";
-import Dropdown from "./mobiledropdown.js";
-import menuback2 from "./Pictures/menuback2.jpg";
 
 export default function App() {
   return (
     <>
-      <Dropdown />
       <Topbar />
-
       <>
         <div
           className="section2-wrapper"

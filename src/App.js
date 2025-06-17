@@ -14,7 +14,6 @@ import menuback2 from "./Pictures/menuback2.jpg";
 export default function App() {
   return (
     <Router>
-      import ScrollToTop from "./ScrollToTop";
       <Dropdown />
       <Topbar />
       <Routes>

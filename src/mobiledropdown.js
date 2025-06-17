@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Mobiledropdown.css";
+import { Link } from "react-router-dom";
 
 export default function MobileDropdown() {
   const [open, setOpen] = useState(false);
@@ -17,9 +18,8 @@ export default function MobileDropdown() {
         </button>
       </div>
       <div className={`dropdown-content ${open ? "open" : ""}`}>
-        <a href="#section1">About Us</a>
-        <a href="#section2">Hours</a>
-        <a href="#section3">Menu</a>
+        <Link to="/">Home</Link>
+        <Link to="/menu">Menu</Link>
         <a
           href="https://www.ubereats.com/store/new-china/ZSgDp7c1SGGl6clZoEVTSw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjMxMTElMjBXJTIwQ2hlcm9rZWUlMjBBdmUlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjI2YjZiNDZhYS0xMzkyLTc1ZTktNTE5My1hNTc2ZTdjNjc5YmQlMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIydWJlcl9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQTI3Ljg4OTI0MSUyQyUyMmxvbmdpdHVkZSUyMiUzQS04Mi40OTQ4NzglN0Q%3D"
           target="_blank"
