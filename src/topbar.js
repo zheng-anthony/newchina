@@ -1,5 +1,5 @@
-import React from "react";
 import "./Topbar.css";
+import { Link } from "react-router-dom";
 
 export default function Topbar() {
   const scrollToSection = (id) => {
@@ -20,9 +20,12 @@ export default function Topbar() {
         className="top_buttons"
         style={{ display: "flex", alignItems: "center", flexGrow: 1 }}
       >
-        <button onClick={() => scrollToSection("section1")}>About Us</button>
-        <button onClick={() => scrollToSection("section2")}>Hours</button>
-        <button onClick={() => scrollToSection("section3")}>Menu</button>
+        <Link to="./">
+          <button>Home</button>
+        </Link>
+        <Link to="/menu">
+          <button>Menu</button>
+        </Link>
         <div style={{ display: "flex", gap: "1.5rem", marginLeft: "auto" }}>
           <a href="https://www.ubereats.com/store/new-china/ZSgDp7c1SGGl6clZoEVTSw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjMxMTElMjBXJTIwQ2hlcm9rZWUlMjBBdmUlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjI2YjZiNDZhYS0xMzkyLTc1ZTktNTE5My1hNTc2ZTdjNjc5YmQlMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIydWJlcl9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQTI3Ljg4OTI0MSUyQyUyMmxvbmdpdHVkZSUyMiUzQS04Mi40OTQ4NzglN0Q%3D">
             <button>UberEats</button>
