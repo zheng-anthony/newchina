@@ -2,7 +2,7 @@
   padding: 20px;
   width: 100%;
   overflow-x: auto;
-  font-family: Georgia, serif;
+  font-family: Arial, serif;
 }
 
 .hours-table {
@@ -27,6 +27,6 @@
   .hours-table th,
   .hours-table td {
     padding: 5px;
-    text-align: left;;
+    text-align: left;
   }
 }

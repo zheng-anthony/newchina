@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: Georgia, serif;
+  font-family: Arial, serif;
 }
 
 #section1 {
@@ -17,8 +17,6 @@ body {
   width: 100%;
   overflow: hidden;
 }
-
-
 
 #section1 .overlay {
   position: absolute;
@@ -37,7 +35,7 @@ body {
 #section1 h1,
 #section1 p {
   color: white;
-  font-family: Georgia, serif;
+  font-family: Arial, serif;
 }
 
 #section1 h1 {
@@ -57,12 +55,11 @@ body {
   margin-bottom: 120px;
 }
 
-
 .section2-wrapper {
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
-  padding: 60px; 
+  padding: 60px;
   box-sizing: border-box;
 }
 
@@ -84,7 +81,7 @@ body {
 
 @media (max-width: 1024px) {
   .slider-container {
-    display: none
+    display: none;
   }
   #section1 h1 {
     font-size: 1.8rem;
@@ -105,12 +102,10 @@ body {
     word-break: break-word;
   }
 
-
   td {
     white-space: normal;
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
   }
-
 
   .section3-wrapper {
     background-image: none !important;
@@ -127,6 +122,4 @@ body {
     min-height: 100vh;
     padding: 10px;
   }
-  
 }
-

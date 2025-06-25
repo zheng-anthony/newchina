@@ -1,5 +1,5 @@
 .mobile-dropdown {
-  display: none; 
+  display: none;
 }
 
 @media (max-width: 1024px) {
@@ -20,10 +20,11 @@
 
   .mobile-title {
     margin: 0;
-    font-size: 1.2rem;
-    font-family: Georgia, serif;
-    color: black;
-    
+    font-size: 1.4rem;
+    font-family: Arial, serif;
+    color: #e90909;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+      1px 1px 0 black;
   }
 
   .dropdown-toggle {

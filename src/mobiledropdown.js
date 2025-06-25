@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Mobiledropdown.css";
 import { Link } from "react-router-dom";
+import favicon from "./Pictures/newchina-favicon.png";
+import phone from "./Pictures/telephone.png";
 
 export default function MobileDropdown() {
   const [open, setOpen] = useState(false);
@@ -12,7 +14,19 @@ export default function MobileDropdown() {
   return (
     <div className="mobile-dropdown">
       <div className="dropdown-bar">
-        <h2 className="mobile-title">New China</h2>
+        <div
+          style={{
+            display: "flex",
+            gap: "5px",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Link to="/">
+            <img src={favicon} width="35" height="35" />
+          </Link>
+          <h2 className="mobile-title">New China</h2>
+        </div>
         <button className="dropdown-toggle" onClick={toggle}>
           ☰
         </button>
@@ -34,7 +48,10 @@ export default function MobileDropdown() {
         >
           DoorDash
         </a>
-        <a href="tel:8138376865">📞 813-837-6865</a>
+
+        <a href="tel:8138376865">
+          <img src={phone} height="12" width="12"></img> 813-837-6865
+        </a>
       </div>
     </div>
   );

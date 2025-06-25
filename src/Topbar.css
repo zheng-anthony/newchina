@@ -23,16 +23,17 @@
 
 .top_title {
   font-size: 2rem;
-  color: red;
+  color: #e90909;
   margin: 0;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  font-family: Georgia, serif;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  font-family: Arial, serif;
 }
 
 .top_address {
   font-size: 1rem;
   margin: 0;
-  font-family: Georgia, serif;
+  font-family: Arial, serif;
 }
 
 .top_buttons {
@@ -40,8 +41,8 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 2rem; 
-  margin-left: 5rem
+  gap: 2rem;
+  margin-left: 5rem;
 }
 
 .top_buttons button {
@@ -52,7 +53,7 @@
   font-weight: 500;
   cursor: pointer;
   color: black;
-  font-family: Georgia, serif;
+  font-family: Arial, serif;
   text-decoration: none;
   transition: color 0.2s ease, text-decoration 0.2s ease;
 }
@@ -60,8 +61,6 @@
 .top_buttons button:hover {
   color: grey;
 }
-
-
 
 @media (max-width: 1024px) {
   .top_tab {

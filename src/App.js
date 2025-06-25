@@ -2,13 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Topbar from "./topbar.js";
-import Info from "./info.js";
-import Menu from "./menu.js";
-import ImageSlider from "./slider.js";
+import Menu from "./Menu Page/menu.js";
 import Dropdown from "./mobiledropdown.js";
 import Homepage from "./Homepage.js";
-
-import menuback from "./Pictures/menuback.jpg";
 import menuback2 from "./Pictures/menuback2.jpg";
 
 export default function App() {

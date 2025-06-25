@@ -1,7 +1,7 @@
 .info-wrapper {
   padding: 20px;
   min-height: 90vh;
-  font-family: Georgia, serif;
+  font-family: Arial, serif;
 }
 
 .info-title {
@@ -30,7 +30,7 @@
     font-size: 3rem;
     margin-top: 150px;
   }
- 
+
   .info-flex {
     flex-direction: row;
     justify-content: space-between;
@@ -50,7 +50,6 @@
 @media (max-width: 1024px) {
   .section-wrapper {
     background-image: none !important;
-    background-color: #8b0000; 
+    background-color: #8b0000;
   }
 }
-

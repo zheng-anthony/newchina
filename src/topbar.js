@@ -1,5 +1,7 @@
 import "./Topbar.css";
 import { Link } from "react-router-dom";
+import favicon from "./Pictures/newchina-favicon.png";
+import phone from "./Pictures/telephone.png";
 
 export default function Topbar() {
   const scrollToSection = (id) => {
@@ -11,6 +13,9 @@ export default function Topbar() {
 
   return (
     <div className="top_tab">
+      <Link to="/">
+        <img width="125" height="125" src={favicon} />
+      </Link>
       <div>
         <h1 className="top_title">New China</h1>
         <h2 className="top_address">3801 W Gandy Blvd E, Tampa, FL 33611</h2>
@@ -39,16 +44,22 @@ export default function Topbar() {
       <div
         style={{
           fontSize: "1.5rem",
-          fontFamily: "Georgia, serif",
+          fontFamily: "Arial, serif",
           color: "black",
           whiteSpace: "nowrap",
         }}
       >
-        📞{" "}
+        {" "}
         <a
           href="tel:8138376865"
-          style={{ color: "black", textDecoration: "none" }}
+          style={{ color: "black", textDecoration: "none", marginLeft: "30px" }}
         >
+          <img
+            style={{ marginRight: "10px" }}
+            src={phone}
+            height="20"
+            width="20"
+          />
           813-837-6865
         </a>
       </div>

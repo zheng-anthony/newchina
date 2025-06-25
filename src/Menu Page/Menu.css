@@ -9,9 +9,9 @@
 
 .menu-items-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 10px 60px; 
-  justify-content: center; 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px 10px;
+  justify-content: center;
 }
 
 .menu-item-box {
@@ -22,7 +22,7 @@
   background-color: #fff;
   text-align: left;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
-  margin: 10px auto 0 auto;
+  margin: 0 auto;
 }
 .menu-items-column {
   display: flex;
@@ -52,17 +52,15 @@
   font-weight: 500;
   cursor: pointer;
   color: black;
-  font-family: Georgia, serif;
+  font-family: Arial, serif;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .menu-buttons button:hover {
   color: grey;
-  background-color: transparent; 
+  background-color: transparent;
 }
-
-
 
 @media (max-width: 1024px) {
   .menu-items-grid {
