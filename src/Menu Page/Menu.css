@@ -65,7 +65,7 @@
 @media (max-width: 1024px) {
   .menu-items-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 5px;
   }
 
   .menu-item-box {
