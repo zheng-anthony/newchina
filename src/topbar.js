@@ -41,19 +41,8 @@ export default function Topbar() {
         </div>
       </div>
 
-      <div
-        style={{
-          fontSize: "1.5rem",
-          fontFamily: "Arial, serif",
-          color: "black",
-          whiteSpace: "nowrap",
-        }}
-      >
-        {" "}
-        <a
-          href="tel:8138376865"
-          style={{ color: "black", textDecoration: "none", marginLeft: "30px" }}
-        >
+      <div>
+        <a href="tel:8138376865" className="phone-button">
           <img
             style={{ marginRight: "10px" }}
             src={phone}

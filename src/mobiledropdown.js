@@ -49,8 +49,8 @@ export default function MobileDropdown() {
           DoorDash
         </a>
 
-        <a href="tel:8138376865">
-          <img src={phone} height="12" width="12"></img> 813-837-6865
+        <a href="tel:8138376865" className="phone-link">
+          <img src={phone} height="12" width="12" /> 813-837-6865
         </a>
       </div>
     </div>

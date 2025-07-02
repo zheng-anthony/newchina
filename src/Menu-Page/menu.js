@@ -16,18 +16,31 @@ export default function MenuTabs() {
           paddingBottom: "100px",
         }}
       >
-        <h1 style={{ fontSize: "2rem", marginBottom: "10px" }}>Our Menus</h1>
-
-        <div className="menu-buttons" style={{ display: "flex", gap: "20px" }}>
-          <button onClick={() => setOption("lunch")}>Lunch Menu</button>
-          <button onClick={() => setOption("dinner")}>Dinner Menu</button>
+        <div className="menu-header-container">
+          <h1>Our Menus</h1>
+          <div className="menu-buttons">
+            <button
+              onClick={() => setOption("lunch")}
+              className={option === "lunch" ? "selected" : ""}
+            >
+              Lunch Menu
+            </button>
+            <button
+              onClick={() => setOption("dinner")}
+              className={option === "dinner" ? "selected" : ""}
+            >
+              Dinner Menu
+            </button>
+          </div>
         </div>
         {/* lunch section */}
         {option === "lunch" && (
           <div className="menu-wrapper">
-            <h2 style={{ textAlign: "center" }}>Lunch Specials</h2>
-            <h2 style={{ textAlign: "center" }}>12-3pm</h2>
-            <h2 style={{ textAlign: "center" }}>🌶️Hot & Spicy</h2>
+            <div className="menu-time-container">
+              <h2 style={{ textAlign: "center", margin: 0 }}>
+                Lunch Specials | Only from 12-3pm
+              </h2>
+            </div>
 
             <div className="menu-items-grid" style={{ marginTop: "20px" }}>
               {/* Left Column */}
@@ -240,9 +253,11 @@ export default function MenuTabs() {
         )}
         {option === "dinner" && (
           <div className="menu-wrapper">
-            <h2 style={{ textAlign: "center" }}>Dinner Menu</h2>
-            <h2 style={{ textAlign: "center" }}>All Day</h2>
-            <h2 style={{ textAlign: "center" }}>🌶️Hot & Spicy</h2>
+            <div className="menu-time-container">
+              <h2 style={{ textAlign: "center", margin: 0 }}>
+                Dinner Menu | Available All Day
+              </h2>
+            </div>
 
             <div className="menu-items-column" style={{ marginTop: "20px" }}>
               <h2 className="menu-section-title">American Special Dishes</h2>

@@ -28,8 +28,16 @@ export default function ImageSlider() {
           alt={`Image ${index + 1}`}
         />
       </div>
-      <div style={{ marginTop: "10px" }}>
+      <div
+        style={{
+          marginTop: "10px",
+          display: "flex",
+          justifyContent: "center",
+          gap: "1rem",
+        }}
+      >
         <button
+          className="slider-arrow"
           onClick={() => {
             if (index === 0) {
               setDirection("left");
@@ -43,6 +51,7 @@ export default function ImageSlider() {
           <ArrowBigLeft />
         </button>
         <button
+          className="slider-arrow"
           onClick={() => {
             if (index === images.length - 1) {
               setDirection("right");

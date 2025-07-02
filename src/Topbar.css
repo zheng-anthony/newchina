@@ -4,16 +4,17 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 2rem;
-  background-color: white;
-  border-bottom: 1px solid black;
+  background-color: #ffffff;
+  border-bottom: 2px solid black;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 125px;
   z-index: 1000;
-  gap: 1rem;
+  gap: 1.5rem;
   box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .top_tab > div:first-child {
@@ -48,21 +49,47 @@
 .top_buttons button {
   background: none;
   border: none;
-  padding: 0;
+  padding: 0.5rem 1rem;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
-  color: black;
-  font-family: Arial, serif;
+  color: #333;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
-  transition: color 0.2s ease, text-decoration 0.2s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
+  border-radius: 5px;
 }
 
 .top_buttons button:hover {
-  color: grey;
+  color: #e90909;
+  transform: scale(1.05);
+  background-color: rgba(233, 9, 9, 0.1);
 }
 
-@media (max-width: 1024px) {
+.phone-button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.phone-button:hover {
+  color: #e90909;
+  transform: scale(1.05);
+  background-color: rgba(233, 9, 9, 0.1);
+}
+
+@media (max-width: 1020px) {
   .top_tab {
     display: none;
   }
