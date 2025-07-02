@@ -19,7 +19,7 @@
   white-space: nowrap;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1024px) {
   .hours-table {
     font-size: 1rem;
   }

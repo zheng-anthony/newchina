@@ -94,7 +94,7 @@ body {
   transform: translateY(-5px);
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1024px) {
   .slider-container {
     display: none;
   }

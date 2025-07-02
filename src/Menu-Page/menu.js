@@ -44,205 +44,205 @@ export default function MenuTabs() {
 
             <div className="menu-items-grid" style={{ marginTop: "20px" }}>
               {/* Left Column */}
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L1. Chicken Chow Mein</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L2. Shrimp Chow Mein</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L3. Moo Goo Gai Pan</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L4. Pepper Steak with Onion</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L5. Shrimp with Lobster Sauce</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L6. Roast Pork with Mixed Vegetables</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L7. Sweet & Sour Chicken or Pork</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L8. Chicken with Cashew Nuts</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L9. Beef with Broccoli</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L10. Shrimp with Mixed Vegetables</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L11. Chicken with Broccoli</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L12. Roast Pork Lo Mein</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L13. Chicken with Garlic Sauce 🌶️</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L14. Shrimp with Broccoli</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L15. Broccoli with Garlic Sauce 🌶️</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L16. Beef with Black Bean Sauce</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L17. Chicken with Curry Sauce 🌶️</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L18. Szechuan Chicken 🌶️</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L19. Chicken with Mixed Vegetables</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L20. Sesame Chicken</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
-                  <b>L21. Shredded Beef with Garlic Sauce 🌶️</b>
+                  <b>L21. Shredded Beef w/ Garlic Sauce🌶️ </b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L22. General Tso's Chicken 🌶️</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L23. Boneless Spare Ribs</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L24. Roast Pork with Broccoli</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L25. Mixed Vegetables</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L26. Shrimp with Garlic Sauce 🌶️</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L27. Hunan Beef 🌶️</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L28. Bourbon Chicken</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L29. Honey Chicken</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L30. Kung Pao Chicken 🌶️</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L31. Beef Lo Mein</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L32. Broccoli with Tofu</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L33. Chicken Lo Mein</b>
                   <span>$9.30</span>
                 </div>
               </div>
-              <div className="menu-item-box">
+              <div className="lunch-menu-item-box">
                 <div className="box-content">
                   <b>L34. Vegetable Lo Mein</b>
                   <span>$9.30</span>
@@ -1520,7 +1520,7 @@ export default function MenuTabs() {
                   <b>48a. Any Style Mei Fun</b>
                   <div className="box-content">
                     <p style={{ margin: 0, color: "grey" }}>
-                      Choice of Chicken, Pork, Beef, or Shrimp
+                      Chicken, Pork, Beef, or Shrimp
                     </p>
                     <p style={{ margin: 0 }}>$12.25</p>
                   </div>
