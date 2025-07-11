@@ -1,8 +1,8 @@
-import "./App.css";
-import Topbar from "./topbar.js";
+import "../../App.css";
+import Topbar from "../../components/Topbar/topbar.js";
 import Info from "./info.js";
-import ImageSlider from "./slider.js";
-import menuback from "./Pictures/menuback.jpg";
+import menuback from "../../Pictures/menuback.jpg";
+import ImageSlider from "../../components/Slider/slider.js";
 
 export default function App() {
   return (

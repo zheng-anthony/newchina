@@ -1,7 +1,6 @@
 .mobile-dropdown {
   display: none;
 }
-
 @media (max-width: 1024px) {
   .mobile-dropdown {
     display: block;

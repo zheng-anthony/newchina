@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Topbar from "./topbar.js";
-import Menu from "./Menu-Page/menu.js";
-import Dropdown from "./mobiledropdown.js";
-import Homepage from "./Homepage.js";
+import Topbar from "./components/Topbar/topbar.js";
+import Menu from "./pages/menu/menu.js";
+import Dropdown from "./components/Dropdown/mobiledropdown.js";
+import Homepage from "./pages/homepage/Homepage.js";
 import menuback2 from "./Pictures/menuback2.jpg";
 
 export default function App() {

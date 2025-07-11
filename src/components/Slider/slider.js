@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
-import pic1 from "./Pictures/p1.jpg";
-import pic2 from "./Pictures/p2.jpg";
-import pic3 from "./Pictures/p3.jpg";
-import pic4 from "./Pictures/p4.jpg";
-import pic5 from "./Pictures/p5.jpg";
+import pic1 from "../../Pictures/p1.jpg";
+import pic2 from "../../Pictures/p2.jpg";
+import pic3 from "../../Pictures/p3.jpg";
+import pic4 from "../../Pictures/p4.jpg";
+import pic5 from "../../Pictures/p5.jpg";
 import "./slider-animation.css";
 
 export default function ImageSlider() {

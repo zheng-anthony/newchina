@@ -1,7 +1,7 @@
 import "./Topbar.css";
 import { Link } from "react-router-dom";
-import favicon from "./Pictures/newchina-favicon.png";
-import phone from "./Pictures/telephone.png";
+import favicon from "../../Pictures/newchina-favicon.png";
+import phone from "../../Pictures/telephone.png";
 
 export default function Topbar() {
   const scrollToSection = (id) => {
